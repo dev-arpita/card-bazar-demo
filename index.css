@@ -1,0 +1,40 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    width: 20%;
+}
+ul.flex {
+    width: 100%;
+}
+.lang-list {
+    gap: 1em;
+}
+.hero{
+    gap: 2em;
+}
+.hero h1 {
+    font-size: 64px;
+}
